@@ -1,6 +1,7 @@
 package collatzconjecture
 import "errors"
 
+// This should return the collatzConjecture output of given number
 func CollatzConjecture(input int) (int,error){
    counter:=0
    if input<=0{
